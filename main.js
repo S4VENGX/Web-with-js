@@ -11,5 +11,5 @@ function upDate(previewPic) {
 function undo() {
     let imageDiv = document.getElementById("img");
     imageDiv.style.backgroundImage = "";
-    imageDiv.innerText = "Hover over an image";
+    imageDiv.innerText = "Hover over 1 of 3 images";
 }
