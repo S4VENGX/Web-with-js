@@ -1,0 +1,33 @@
+#img {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    background-size: cover;
+    background-position: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.preview {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
