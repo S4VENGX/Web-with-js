@@ -3,7 +3,7 @@ function upDate(previewPic) {
     console.log("Source: ", previewPic.src);
     console.log("Alt: ", previewPic.alt);
     
-    let imageDiv = document.getElementById("img");
+    var imageDiv = document.getElementById("img");
     imageDiv.style.backgroundImage = `url('${previewPic.src}')`;
     imageDiv.innerText = previewPic.alt;
 }
